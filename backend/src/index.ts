@@ -30,7 +30,12 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
     error: err.message || 'Internal Server Error',
   });
 });
-
+app.get('/', (req, res) => {
+  res.json({
+    status: 'ok',
+    service: 'GrowEasy CRM AI Importer Backend'
+  });
+});
 app.listen(PORT, () => {
   console.log(`====================================================`);
   console.log(` GrowEasy CRM AI Importer Backend running on port ${PORT}`);
