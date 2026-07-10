@@ -1,0 +1,5 @@
+Full Name,Email Address,Phone Number,Company,City,CRM Status,Campaign Source
+John Doe,john.doe@example.com,+91 98765-43210,GrowEasy Agency,New York,GOOD_LEAD_FOLLOW_UP,leads_on_demand
+Jane Smith,jane.smith@groweasy.ai,,Meridian Realty,San Francisco,SALE_DONE,meridian_tower
+Missing Contact Lead,,,,Chicago,DID_NOT_CONNECT,eden_park
+Wrong Email Lead,invalid-email-format,9876543212,Varah Group,,BAD_LEAD,varah_swamy
